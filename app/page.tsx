@@ -143,7 +143,7 @@ export default function Portfolio() {
                 </div>
                 <div className="flex gap-2">
                   <Button size="sm" asChild>
-                    <a href="https://github.com/alexjohnson/product-recommendation" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/SaliElloh/product-recommendation-system" target="_blank" rel="noreferrer">
                       <Github className="mr-2 h-4 w-4" />
                       Code
                     </a>
@@ -178,7 +178,7 @@ export default function Portfolio() {
                 </div>
                 <div className="flex gap-2">
                   <Button size="sm" asChild>
-                    <a href="https://github.com/alexjohnson/human-action-recognition" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/SaliElloh/Human-Action-Recognition" target="_blank" rel="noreferrer">
                       <Github className="mr-2 h-4 w-4" />
                       Code
                     </a>
@@ -213,7 +213,7 @@ export default function Portfolio() {
                 </div>
                 <div className="flex gap-2">
                   <Button size="sm" asChild>
-                    <a href="https://github.com/alexjohnson/sentiment-analysis" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/SaliElloh/Multimodal-Sentiment-Analysis" target="_blank" rel="noreferrer">
                       <Github className="mr-2 h-4 w-4" />
                       Code
                     </a>
@@ -248,7 +248,7 @@ export default function Portfolio() {
                 </div>
                 <div className="flex gap-2">
                   <Button size="sm" asChild>
-                    <a href="https://github.com/alexjohnson/fatigue-detection" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/SaliElloh/passive-fatigue-detection" target="_blank" rel="noreferrer">
                       <Github className="mr-2 h-4 w-4" />
                       Code
                     </a>
@@ -358,13 +358,13 @@ export default function Portfolio() {
                 </a>
               </Button>
               <Button variant="outline" asChild>
-                <a href="https://github.com/alexjohnson" target="_blank" rel="noreferrer">
+                <a href="" target="_blank" rel="noreferrer">
                   <Github className="mr-2 h-4 w-4" />
                   GitHub
                 </a>
               </Button>
               <Button variant="outline" asChild>
-                <a href="https://linkedin.com/in/alexjohnson" target="_blank" rel="noreferrer">
+                <a href="https://www.linkedin.com/in/salielloh12/" target="_blank" rel="noreferrer">
                   <Linkedin className="mr-2 h-4 w-4" />
                   LinkedIn
                 </a>
@@ -383,7 +383,7 @@ export default function Portfolio() {
             </div>
             <div className="flex items-center space-x-4">
               <a
-                href="https://github.com/alexjohnson"
+                href="https://github.com/SaliElloh"
                 target="_blank"
                 className="hover:text-accent transition-colors"
                 rel="noreferrer"
@@ -391,14 +391,14 @@ export default function Portfolio() {
                 <Github className="h-5 w-5" />
               </a>
               <a
-                href="https://linkedin.com/in/alexjohnson"
+                href="https://www.linkedin.com/in/salielloh12/"
                 target="_blank"
                 className="hover:text-accent transition-colors"
                 rel="noreferrer"
               >
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="mailto:alex@example.com" className="hover:text-accent transition-colors">
+              <a href="ellohsali@gmail.com" className="hover:text-accent transition-colors">
                 <Mail className="h-5 w-5" />
               </a>
             </div>
