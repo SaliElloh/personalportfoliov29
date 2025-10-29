@@ -322,20 +322,6 @@ export default function Portfolio() {
                 </div>
               </CardContent>
             </Card>
-            <Card className="text-center">
-              <CardHeader>
-                <Smartphone className="mx-auto h-12 w-12 text-accent" />
-                <CardTitle className="font-space-grotesk">Mobile</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="flex flex-wrap gap-2 justify-center">
-                  <Badge variant="outline">React Native</Badge>
-                  <Badge variant="outline">Expo</Badge>
-                  <Badge variant="outline">Flutter</Badge>
-                  <Badge variant="outline">PWA</Badge>
-                </div>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </section>
