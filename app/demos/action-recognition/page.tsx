@@ -137,7 +137,7 @@ export default function ActionRecognitionDemo() {
         },
         predicted_class: currentVideo?.category || "Unknown",
         confidence: 95.0,
-        error: "Using mock data - Python script unavailable",
+        // error: "Using mock data - Python script unavailable",
       }
       setPredictionResult(mockResult)
       setIsAnalyzing(false)

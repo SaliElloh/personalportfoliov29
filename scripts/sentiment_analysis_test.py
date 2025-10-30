@@ -57,7 +57,7 @@ def preprocess_sentence(sentence):
 # Load trained model
 # ------------------------- #
 
-model_dir = 'C:/Users/sally/Downloads/personalportfoliov29/models/sentiment_analysis/random_forest_model_sentiment_analysis.pkl'
+model_dir = 'C:/Users/sally/Documents/GitHub/personalportfoliov29/models/sentiment_analysis/random_forest_model_sentiment_analysis.pkl'
 # model = joblib.load('C:/Users/sally/Downloads/personalportfoliov29/models/sentiment_analysis/product_recommendation_knn_model.pkl')
 
 model = joblib.load(model_dir)

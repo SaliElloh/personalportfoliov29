@@ -17,15 +17,15 @@ def load_model_from_directory():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     # Go up one level to project root, then into models directory
     project_root = os.path.dirname(script_dir)
+
     model_dir = os.path.join(project_root, 'models', 'human_action_recog_models')
-    
     # Check if directory exists
     if not os.path.exists(model_dir):
         raise FileNotFoundError(f"Model directory not found: {model_dir}")
     
     # Look for .h5 model files in the directory
     model_files = [f for f in os.listdir(model_dir) if f.endswith('.h5')]
-    
+    print(model_files)
     if not model_files:
         raise FileNotFoundError(f"No .h5 model files found in {model_dir}")
     
