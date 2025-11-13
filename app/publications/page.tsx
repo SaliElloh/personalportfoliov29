@@ -6,8 +6,32 @@ import Link from "next/link"
 
 export default function Publications() {
   const publications = [
+  {
+    title: "Multilingual Dataset Integration Strategies for Robust Audio Deepfake Detection: A SAFE Challenge System",
+    authors: "Hashim Ali, Surya Subramani, Nithin Sai Adupa, Lekha Bollinani, Sali El-loh",
+    conference: "IEEE ASRU 2025 (Automatic Speech Recognition and Understanding Workshop)",
+    year: "2025",
+    venue: "Honolulu, Hawaii, USA",
+    summary:
+      "This work was developed as part of the SAFE: Synthetic Audio Forensics Evaluation Challenge, where our multilingual audio deepfake detection system achieved 2nd place in both Task 1 (unmodified audio detection) and Task 3 (laundered audio detection). The approach integrates self-supervised learning front-ends (WavLM Large), RawBoost augmentation, and multilingual datasets spanning 9 languages and over 70 TTS systems to achieve robust cross-lingual spoof detection.",
+    abstract: "The SAFE Challenge evaluates synthetic speech de-tection across three tasks: unmodified audio, processed audio withcompression artifacts, and laundered audio designed to evadedetection. We systematically explore self-supervised learning(SSL) front-ends, training data compositions, and audio lengthconfigurations for robust deepfake detection. Our AASIST-basedapproach incorporates WavLM large frontend with RawBoostaugmentation, trained on a multilingual dataset of 256,600 sam-ples spanning 9 languages and over 70 TTS systems from Codec-Fake, MLAAD v5, SpoofCeleb, Famous Figures, and MAILABS.Through extensive experimentation with different SSL front-ends, three training data versions, and two audio lengths, weachieved second place in both Task 1 (unmodified audio detection)and Task 3 (laundered audio detection), demonstrating stronggeneralization and robustness. (PDF) Multilingual Dataset Integration Strategies for Robust Audio Deepfake Detection: A SAFE Challenge System. Available from: https://www.researchgate.net/publication/395033803_Multilingual_Dataset_Integration_Strategies_for_Robust_Audio_Deepfake_Detection_A_SAFE_Challenge_System [accessed Nov 12 2025].",
+    // links: [
+    //   { label: "ASRU 2025 Paper (ResearchGate)", url: "https://www.researchgate.net/publication/395033803_Multilingual_Dataset_Integration_Strategies_for_Robust_Audio_Deepfake_Detection_A_SAFE_Challenge_System" },
+    //   { label: "SAFE 2025 Challenge Overview", url: "https://safe-challenge-website-link.com" }
+    // ],
+    pdfUrl: "/papers/Multilingual_Dataset_Integration_Strategies_for_Ro.pdf",
+    conferenceUrl: "https://2025.ieeeasru.org/",
+    SAFEUrl: "https://stresearch.github.io/SAFE/",
+    tags: [
+      "Audio Deepfakes",
+      "Synthetic Speech Detection",
+      "Text-to-Speech (TTS)",
+      "Voice Conversion (VC)",
+      "Multilingual Datasets",
+      "AASIST",
+    ], 
+  },
     {
-
       title: "One-class classification for Speaker-Specific Audio Spoof Detection",
       authors: "Hashim Ali, Surya Subramani, Nithin Sai Adupa, Lekha Bollinani, Sali El-loh",
       conference: "IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA)",
