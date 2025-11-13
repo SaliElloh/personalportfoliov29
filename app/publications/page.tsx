@@ -14,11 +14,12 @@ export default function Publications() {
     venue: "Honolulu, Hawaii, USA",
     summary:
       "This work was developed as part of the SAFE: Synthetic Audio Forensics Evaluation Challenge, where our multilingual audio deepfake detection system achieved 2nd place in both Task 1 (unmodified audio detection) and Task 3 (laundered audio detection). The approach integrates self-supervised learning front-ends (WavLM Large), RawBoost augmentation, and multilingual datasets spanning 9 languages and over 70 TTS systems to achieve robust cross-lingual spoof detection.",
-    abstract: "The SAFE Challenge evaluates synthetic speech de-tection across three tasks: unmodified audio, processed audio withcompression artifacts, and laundered audio designed to evadedetection. We systematically explore self-supervised learning(SSL) front-ends, training data compositions, and audio lengthconfigurations for robust deepfake detection. Our AASIST-basedapproach incorporates WavLM large frontend with RawBoostaugmentation, trained on a multilingual dataset of 256,600 sam-ples spanning 9 languages and over 70 TTS systems from Codec-Fake, MLAAD v5, SpoofCeleb, Famous Figures, and MAILABS.Through extensive experimentation with different SSL front-ends, three training data versions, and two audio lengths, weachieved second place in both Task 1 (unmodified audio detection)and Task 3 (laundered audio detection), demonstrating stronggeneralization and robustness. (PDF) Multilingual Dataset Integration Strategies for Robust Audio Deepfake Detection: A SAFE Challenge System. Available from: https://www.researchgate.net/publication/395033803_Multilingual_Dataset_Integration_Strategies_for_Robust_Audio_Deepfake_Detection_A_SAFE_Challenge_System [accessed Nov 12 2025].",
-    // links: [
-    //   { label: "ASRU 2025 Paper (ResearchGate)", url: "https://www.researchgate.net/publication/395033803_Multilingual_Dataset_Integration_Strategies_for_Robust_Audio_Deepfake_Detection_A_SAFE_Challenge_System" },
-    //   { label: "SAFE 2025 Challenge Overview", url: "https://safe-challenge-website-link.com" }
-    // ],
+    abstract: 
+    "The SAFE Challenge evaluates synthetic speech detection across three tasks: unmodified audio, processed audio with compression artifacts, and laundered audio designed to evade detection. We systematically explore self-supervised learning (SSL) front-ends, training data compositions, and audio length configurations for robust deepfake detection. Our AASIST-based approach incorporates WavLM Large with RawBoost augmentation, trained on a multilingual dataset of 256,600 samples spanning 9 languages and over 70 TTS systems from CodecFake, MLAAD v5, SpoofCeleb, Famous Figures, and MAILABS. Through extensive experimentation with different SSL front-ends, three training data versions, and two audio lengths, we achieved second place in both Task 1 (unmodified audio detection) and Task 3 (laundered audio detection), demonstrating strong generalization and robustness.", 
+    materials: [
+    { type: "paper", label: "ASRU 2025 Paper (ResearchGate)", url: "https://www.researchgate.net/publication/395033803_Multilingual_Dataset_Integration_Strategies_for_Robust_Audio_Deepfake_Detection_A_SAFE_Challenge_System" },
+    { type: "Challenge", label: "SAFE 2025 Challenge Overview", url: "https://stresearch.github.io/SAFE/" }
+    ],
     pdfUrl: "/papers/Multilingual_Dataset_Integration_Strategies_for_Ro.pdf",
     conferenceUrl: "https://2025.ieeeasru.org/",
     SAFEUrl: "https://stresearch.github.io/SAFE/",
@@ -40,13 +41,13 @@ export default function Publications() {
       abstract:
         "This paper introduces a speaker-specific framework for detecting audio deepfakes. By combining self-supervised learning embeddings with a one-class SVM trained only on genuine speech, the method reliably identifies synthetic voices. Evaluations on benchmark and real-world datasets show strong performance across diverse spoofing techniques, making it a practical solution for safeguarding individuals, such as political figures, against audio impersonation.",
       tags: ["Audio Deepfakes" , "Speech Spoofing Detection" , "Text-to-Speech (TTS)", "Voice Conversion (VC)","Self-Supervised Learning (SSL)", "One-Class Classification" ],
-
+      
       pdfUrl: "/papers/emotion-analysis-semeval2024.pdf",
       conferenceUrl: "https://semeval.github.io/",
       materials: [
-        { type: "slides", url: "/papers/emotion-analysis-slides.pdf", label: "Presentation Slides" },
-        { type: "code", url: "https://github.com/alexjohnson/emotion-analysis", label: "Source Code" },
-        { type: "supplementary", url: "/papers/emotion-analysis-supplementary.pdf", label: "Supplementary Material" },
+        { type: "paper", url: "/papers/23_One_class_classification_fo.pdf", label: "One Class Classification Paper" },
+        // { type: "code", url: "https://github.com/alexjohnson/emotion-analysis", label: "Source Code" },
+        // { type: "supplementary", url: "/papers/emotion-analysis-supplementary.pdf", label: "Supplementary Material" },
       ],
     },
     {
@@ -58,12 +59,12 @@ export default function Publications() {
       abstract:
         "This paper investigates how surface texture influences the performance of the μTesla rotor version 3. By varying the amplitude and frequency of sinusoidal textures on the rotor surfaces, the authors demonstrate that the boundary layer flow and pump output can be effectively controlled, as confirmed through simulations and experimental measurements",
       tags: [ "μTesla Rotor", "Microfluidics", "Surface Texture Engineering", "Boundary Layer Flow", "Pump Performance", "Fluid Dynamics", "Experimental Validation", "Computational Fluid Dynamics (CFD)"],
-      pdfUrl: "/papers/fatigue-detection-itsc2023.pdf",
-      conferenceUrl: "https://2023.ieee-itsc.org/",
+      pdfUrl: "/papers/MICROTESLA_PUMP.pdf",
+      conferenceUrl: "https://microtasconferences.org/microtas2021/",
       materials: [
-        { type: "slides", url: "/papers/fatigue-detection-slides.pdf", label: "Presentation Slides" },
-        { type: "code", url: "https://github.com/alexjohnson/fatigue-detection", label: "Source Code" },
-        { type: "demo", url: "/demos/fatigue-detection", label: "Live Demo" },
+        { type: "paper", url: "/papers/MICROTESLA_PUMP.pdf", label: "Microtesla Pump Paper (µTAS 2021)" },
+        // { type: "code", url: "https://github.com/alexjohnson/fatigue-detection", label: "Source Code" },
+        // { type: "demo", url: "/demos/fatigue-detection", label: "Live Demo" },
       ],
     },
   ]
